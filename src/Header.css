@@ -1,0 +1,76 @@
+/* Basic styling for the navbar */
+.navbar {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 535px;
+  }
+  
+  /* Styling for the logo or brand */
+  .navbar-item {
+    font-size: 24px;
+    font-weight: bold;
+ 
+  }
+  .buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Adjust padding as needed */
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  /* Styling for the search bar */
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search .ui.input {
+    width: 500px;
+    position: relative;
+  }
+  
+  .search .ui.icon.input input {
+    padding-right: 40px;
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+  }
+  
+  .search .results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: none;
+  }
+  
+  /* Styling for the buttons */
+  .buttons button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image1 {
+    margin-top: 20px; /* Adjust the margin value as needed */
+    
+  }
+  
+  
+  
+  
